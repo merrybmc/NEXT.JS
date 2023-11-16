@@ -20,5 +20,5 @@
 
 .nav a:hover {
   color: orange;
-  font-size: 25px;
+  text-decoration: underline;
 }
