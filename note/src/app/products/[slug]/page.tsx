@@ -7,6 +7,13 @@ interface Props {
   };
 }
 
+export function generateMetadata({ params }: Props) {
+  return {
+    title: `제품 이름: ${params.slug}`,
+    description: `${params.slug}를 판매하는 페이지입니다.`,
+  };
+}
+
 export default function PantsPage({ params }: Props) {
   const { slug } = params;
   if (slug === 'nothing') {
