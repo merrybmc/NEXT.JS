@@ -1,3 +1,4 @@
+import { notFound } from 'next/navigation';
 import React from 'react';
 
 interface Props {
@@ -8,6 +9,9 @@ interface Props {
 
 export default function PantsPage({ params }: Props) {
   const { slug } = params;
+  if (slug === 'nothing') {
+    return notFound();
+  }
   return <div>{slug} 설명 페이지</div>;
 }
 
