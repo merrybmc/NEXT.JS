@@ -8,6 +8,7 @@ export type Product = {
 };
 
 export async function getProducts(): Promise<Product[]> {
+  for (let i = 0; i < 1000000000; i++) {}
   // path = 폴더와 파일 경로를 저장해주는 모듈
   // path.join = 여러 인자를 넣으면 하나의 경로로 합쳐줌, 상대경로 처리
   // process.cwd() = node 명령을 호출한 작업 디렉터리의 절대경로 (note)
