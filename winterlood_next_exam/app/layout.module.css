@@ -1,0 +1,37 @@
+.body {
+  margin: 0px;
+  background-color: azure;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 50px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.main {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 80px 10px;
+  flex: 1 auto;
+}
+
+.footer {
+  border-top: 1px solid rgb(230, 230, 230);
+  padding-top: 20px;
+  margin-top: 20px;
+  text-align: center;
+  color: gray;
+  font-size: 14px;
+}
