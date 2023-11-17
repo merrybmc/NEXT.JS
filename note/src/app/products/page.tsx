@@ -3,6 +3,8 @@ import React from 'react';
 import styles from './page.module.css';
 import { Product, getProducts } from '@/service/products';
 import MeowArticle from '@/components/MeowArticle';
+import Image from 'next/image';
+import clothesImage from '../../../public/images/clothes.jpg';
 
 // revalidate = 몇 초 간격으로 SSG를 서버 상에서 다시 만들지 결정
 export const revalidate = 3;
@@ -26,7 +28,8 @@ export default async function ProductsPage() {
 
   return (
     <div>
-      제품 소개 페이지
+      <h1>제품 소개 페이지</h1>
+      <Image src={clothesImage} alt='Clothes' />
       <ul>
         {products.map(({ id, name }, index) => (
           <li key={index}>
