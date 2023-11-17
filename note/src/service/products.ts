@@ -5,6 +5,7 @@ export type Product = {
   id: string;
   name: String;
   price: number;
+  image: string;
 };
 
 export async function getProducts(): Promise<Product[]> {
