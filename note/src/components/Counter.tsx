@@ -1,4 +1,5 @@
 'use client';
+// 클라이언트 사이드 렌더링 (CSR)
 import React, { useState } from 'react';
 
 export default function Counter() {
