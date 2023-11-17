@@ -3,6 +3,9 @@ import React from 'react';
 import styles from './page.module.css';
 import { Product, getProducts } from '@/service/products';
 
+// revalidate = 몇 초 간격으로 SSG를 서버 상에서 다시 만들지 결정
+export const revalidate = 3;
+
 export default async function ProductsPage() {
   // const products = ['shirt', 'pants', 'skirt', 'shoes'];
 

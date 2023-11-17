@@ -2,6 +2,9 @@ import { getProduct, getProducts } from '@/service/products';
 import { notFound } from 'next/navigation';
 import React from 'react';
 
+// revalidate = 몇 초 간격으로 SSG를 서버 상에서 다시 만들지 결정
+export const revalidate = 3;
+
 interface Props {
   params: {
     slug: string;
