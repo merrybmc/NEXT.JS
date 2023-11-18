@@ -1,19 +1,10 @@
-import Link from 'next/link';
-import Routing from './service/Routing';
+import { GetServerSideProps } from './service/GetCountry';
+import { useEffect } from 'react';
+import { fetchCoutnries } from './api/data/api';
 
-export default function Home() {
-  const code = 'KOR';
-
-  return (
-    <div>
-      홈페이지
-      <div>
-        <Routing />
-        {/* <Link href={'/search'}>Search 페이지 이동</Link> */}
-        <Link href={'/country'}>Country 페이지 이동</Link>
-        <Link href={`/country/${code}`}>KOR 페이지 이동</Link>
-        <Link href={'/about'}>About 페이지 이동</Link>
-      </div>
-    </div>
-  );
+export default async function Home() {
+  const { name } = await GetServerSideProps();
+  const res = fetchCoutnries();
+  console.log(res);
+  return <div>{name}</div>;
 }
