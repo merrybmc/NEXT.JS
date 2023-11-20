@@ -1,9 +1,7 @@
-import { Open_Sans } from 'next/font/google';
 import Image from 'next/image';
 import Link from 'next/link';
 import pikachu from '../../public/hello-pikachu.gif';
-
-const sans = Open_Sans({ subsets: ['latin'] });
+import PostList from '@/components/Posts/FeaturedPosts';
 
 export default function Home() {
   return (
@@ -23,6 +21,9 @@ export default function Home() {
           Contact Me!
         </button>
       </Link>
+      <section>
+        <PostList />
+      </section>
     </section>
   );
 }

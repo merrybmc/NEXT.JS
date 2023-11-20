@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import { Open_Sans } from 'next/font/google';
 import './globals.css';
 import Link from 'next/link';
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
+import Header from '@/components/Home/Header';
+import Footer from '@/components/Home/Footer';
 
 const sans = Open_Sans({ subsets: ['latin'] });
 
@@ -14,7 +14,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <body className={(sans.className, 'flex flex-col h-screen max-w-7xl mx-auto')}>
+    <body className={(sans.className, 'flex flex-col h-screen max-w-7xl mx-auto bg-slate-50')}>
       <Header />
       <div className='flex-auto'>{children}</div>
       <Footer />

@@ -1,0 +1,42 @@
+[
+  {
+    "path": "https://postfiles.pstatic.net/20160817_259/retspe_14714118890125sC2j_PNG/%C7%C7%C4%AB%C3%F2_%281%29.png?type=w773",
+    "date": "2023-12-31",
+    "title": "2023년 리뷰",
+    "description": "2023년에 배운 기술들, 생각들 정리",
+    "category": "my story",
+    "featured": true
+  },
+  {
+    "path": "https://postfiles.pstatic.net/20160817_259/retspe_14714118890125sC2j_PNG/%C7%C7%C4%AB%C3%F2_%281%29.png?type=w773",
+    "date": "2023-12-31",
+    "title": "리액트 18버전",
+    "description": "리액트 18에 추가된 사항들 정리",
+    "category": "react",
+    "featured": true
+  },
+  {
+    "path": "https://postfiles.pstatic.net/20160817_259/retspe_14714118890125sC2j_PNG/%C7%C7%C4%AB%C3%F2_%281%29.png?type=w773",
+    "date": "2023-12-31",
+    "title": "리액트 최적화하기",
+    "description": "리액트를 최적화하는 기법들 정리",
+    "category": "react",
+    "featured": true
+  },
+  {
+    "path": "https://postfiles.pstatic.net/20160817_259/retspe_14714118890125sC2j_PNG/%C7%C7%C4%AB%C3%F2_%281%29.png?type=w773",
+    "date": "2023-12-31",
+    "title": "NEXT.js 공부",
+    "description": "NEXT 마스터하기",
+    "category": "NEXT.js",
+    "featured": true
+  },
+  {
+    "path": "https://postfiles.pstatic.net/20160817_259/retspe_14714118890125sC2j_PNG/%C7%C7%C4%AB%C3%F2_%281%29.png?type=w773",
+    "date": "2023-12-31",
+    "title": "자바스크립트 공부",
+    "description": "자바스크립트 프로가 되자",
+    "category": "javascript",
+    "featured": true
+  }
+]
