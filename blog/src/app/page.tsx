@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import pikachu from '../../public/hello-pikachu.gif';
-import PostList from '@/components/Posts/FeaturedPosts';
+import FeaturedPosts from '@/components/Posts/FeaturedPosts';
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
         </button>
       </Link>
       <section>
-        <PostList />
+        <FeaturedPosts />
       </section>
     </section>
   );
