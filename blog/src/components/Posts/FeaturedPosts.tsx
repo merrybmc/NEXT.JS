@@ -1,5 +1,4 @@
 import { getAllPosts, getFeaturedPosts } from '@/app/service/posts';
-import Image from 'next/image';
 import React from 'react';
 import PostsGrid from './PostsGrid';
 
